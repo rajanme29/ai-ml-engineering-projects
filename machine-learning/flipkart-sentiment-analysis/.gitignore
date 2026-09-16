@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Pytest
+.pytest_cache/
+
+# VS Code
+.vscode/
+
+# Environment
+.env
+
+# OS files
+.DS_Store
+
+# Coverage
+.coverage
+htmlcov/
+
+# Excel outputs
+*.xlsx

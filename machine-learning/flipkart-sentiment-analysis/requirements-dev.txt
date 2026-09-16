@@ -1,0 +1,14 @@
+# testing and EDA
+
+# read the necessary packages from requirements.txt
+-r requirements.txt
+
+# packages for automated testing
+pytest>=8.3,<10.0
+httpx>=0.27,<1.0
+
+# exploratory data analysis
+matplotlib>=3.9,<4.0
+
+# optional code quality tools
+ruff>=0.9,<1.0

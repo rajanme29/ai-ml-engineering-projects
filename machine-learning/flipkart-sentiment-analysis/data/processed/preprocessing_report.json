@@ -1,0 +1,32 @@
+{
+  "initial_rows": 205052,
+  "invalid_rating_rows_removed": 3,
+  "invalid_product_price_rows_removed": 3,
+  "final_rows_after_numerical_cleaning": 205049,
+  "rows_after_text_validatation": 205047,
+  "high_confidence_rows": 181814,
+  "low_confidence_rows": 23233,
+  "high_confidence_rows_before_cleaning": 181814,
+  "exact_duplicates_removed": 32027,
+  "distinct_conflicting_reviews_removed": 39,
+  "rows_affected_by_confliects": 857,
+  "duplicate_review_texts_removed": 52528,
+  "final_model_rows": 96402,
+  "final_cloumns": [
+    "customer_review",
+    "target_sentiment",
+    "target_label"
+  ],
+  "label_mapping": {
+    "negative": 0,
+    "neutral": 1,
+    "positive": 2
+  },
+  "rating_to_sentiment": {
+    "1": "negative",
+    "2": "negative",
+    "3": "neutral",
+    "4": "positive",
+    "5": "positive"
+  }
+}

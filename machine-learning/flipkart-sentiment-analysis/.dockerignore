@@ -1,0 +1,33 @@
+# Git
+.git/
+.github/
+.gitignore
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+
+# Development and testing
+tests/
+notebook/
+.pytest_cache/
+.coverage
+
+# Raw and processed data
+data/
+
+# Development dependencies
+requirements-dev.txt
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+
+# Secrets
+.env
+.env.*

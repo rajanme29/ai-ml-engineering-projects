@@ -1,0 +1,68 @@
+{
+    "dataset_rows": 96402,
+    "confusion_matrix": [
+        [
+            3334,
+            8,
+            68
+        ],
+        [
+            28,
+            279,
+            128
+        ],
+        [
+            18,
+            17,
+            15401
+        ]
+    ],
+    "accuracy": 0.9861521705305741,
+    "precision_macro": 0.9638623904122351,
+    "recall_macro": 0.8722748311736653,
+    "f1_macro": 0.909887712170454,
+    "precision_weighted": 0.9856771899409849,
+    "recall_weighted": 0.9861521705305741,
+    "f1_weighted": 0.9853372272082505,
+    "train_samples": 77121,
+    "test_samples": 19281,
+    "model_type": "TF-IDF + Logistic Regression",
+    "target_classes": [
+        "negative",
+        "neutral",
+        "positive"
+    ],
+    "model_version": "1.0.0",
+    "preprocessing_report": {
+        "initial_rows": 205052,
+        "invalid_rating_rows_removed": 3,
+        "invalid_product_price_rows_removed": 3,
+        "final_rows_after_numerical_cleaning": 205049,
+        "rows_after_text_validatation": 205047,
+        "high_confidence_rows": 181814,
+        "low_confidence_rows": 23233,
+        "high_confidence_rows_before_cleaning": 181814,
+        "exact_duplicates_removed": 32027,
+        "distinct_conflicting_reviews_removed": 39,
+        "rows_affected_by_confliects": 857,
+        "duplicate_review_texts_removed": 52528,
+        "final_model_rows": 96402,
+        "final_cloumns": [
+            "customer_review",
+            "target_sentiment",
+            "target_label"
+        ],
+        "label_mapping": {
+            "negative": 0,
+            "neutral": 1,
+            "positive": 2
+        },
+        "rating_to_sentiment": {
+            "1": "negative",
+            "2": "negative",
+            "3": "neutral",
+            "4": "positive",
+            "5": "positive"
+        }
+    }
+}

@@ -1,0 +1,16 @@
+#
+# allows compatible updates within the supported major version
+# but prevents an uncontrolled upgrade
+#
+
+# REST API framework and validation
+fastapi>=0.115,<1.0
+pydantic>=2.10,<3.0
+uvicorn[standard]>=0.34,<1.0
+
+# Machine learning inference
+scikit-learn>=1.6,<2.0
+joblib>=1.4,<2.0
+
+# Data processing
+pandas>=2.2,<3.0
