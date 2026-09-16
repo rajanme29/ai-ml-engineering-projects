@@ -4,7 +4,7 @@
 
 Customer reviews provide valuable insights into product quality, customer satisfaction, and user experience. Analyzing large volumes of textual feedback manually is time-consuming and difficult to scale.
 
-This project implements a sentiment analysis pipeline for Flipkart customer reviews. The objective is to automatically classify customer feedback into one of three sentiment categories:
+This project implements a sentiment analysis pipeline for Flipkart customer reviews. The objective is to automatically classify customer feedback into one of three sentiment categories or unknown:
 
 - Positive
 - Neutral
