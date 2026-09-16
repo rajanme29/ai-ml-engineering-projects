@@ -190,7 +190,7 @@ The API loads the trained sentiment classification pipeline and exposes predicti
 ---
 
 ## API Architecture
-
+```text
 Customer Review
       ↓
 FastAPI Endpoint
@@ -202,6 +202,7 @@ TF-IDF Vectorizer
 Logistic Regression Model
       ↓
 Sentiment Prediction
+```
 
 # Docker Deployment
 To ensure reproducible deployment and simplify environment management, the sentiment analysis application is packaged as a Docker container.
@@ -240,8 +241,6 @@ Checkout Repository
 Setup Python Environment
         ↓
 Install Dependencies
-        ↓
-Run Automated Tests
         ↓
 Build Docker Image
         ↓
