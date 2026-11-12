@@ -17,6 +17,7 @@ venv/
 
 # Environment
 .env
+.env.*
 
 # OS files
 .DS_Store
@@ -27,3 +28,6 @@ htmlcov/
 
 # Excel outputs
 *.xlsx
+
+# Generated data
+**/data/processed/
